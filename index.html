@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>JS Library Project</title>
+</head>
+<body>
+    <p>Add book!</p>
+    <form id="frm1">
+        Title: <input type="text" name="title" id="title"><br>
+        Author: <input type="text" name="author" id="author"><br>
+        Pages: <input type="text" name="pages" id="pages"><br>
+        Is it read?: <input type="text" name="read" id="read"><br><br>
+        <input  type="button"  onClick="addBookToLibrary();clearInput();"  value="Submit">
+    </form>
+
+      <input type="button" onClick="displayBooks()"  value="Display Books">
+      <p id="div1"></p>
+
+</body>
+</html>
+<script src="script.js" defer>
+
+</script>
